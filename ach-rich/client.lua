@@ -1,3 +1,7 @@
+-- Don't gotta touch the local stuff
+local id = 
+
+-- The below requires changing to support everything (DEV)
 Citizen.CreateThread(function()
 	if config.showstate = true then
 		local x,y,z = table.unpack(GetEntityCoords(PlayerPedId(),true))
